@@ -1,7 +1,6 @@
 import PySimpleGUI as sg
-import subprocess
-import androidtv
-import intents_keyevents as ik
+import subprocess as sp
+import src.intents_keyevents as ik
 from subprocess import check_output, CalledProcessError
 
 sg.theme('DarkBlack')
@@ -21,189 +20,189 @@ def open_keyboard():
         
         if event == "a":
             try:
-                process = subprocess.Popen(ik.a.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.a.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
             
         if event == "b":
             try:
-                process = subprocess.Popen(ik.b.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.b.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "c":
             try:
-                process = subprocess.Popen(ik.c.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.c.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "d":
             try:
-                process = subprocess.Popen(ik.d.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.d.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
         
         if event == "e":
             try:
-                process = subprocess.Popen(ik.e.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.e.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "f":
             try:
-                process = subprocess.Popen(ik.f.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.f.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "g":
             try:
-                process = subprocess.Popen(ik.g.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.g.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "h":
             try:
-                process = subprocess.Popen(ik.h.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.h.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "i":
             try:
-                process = subprocess.Popen(ik.i.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.i.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "j":
             try:
-                process = subprocess.Popen(ik.j.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.j.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "k":
             try:
-                process = subprocess.Popen(ik.k.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.k.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
             
         if event == "l":
             try:
-                process = subprocess.Popen(ik.l.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.l.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "m":
             try:
-                process = subprocess.Popen(ik.m.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.m.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "n":
             try:
-                process = subprocess.Popen(ik.n.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.n.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
         
         if event == "o":
             try:
-                process = subprocess.Popen(ik.o.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.o.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "p":
             try:
-                process = subprocess.Popen(ik.p.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.p.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "q":
             try:
-                process = subprocess.Popen(ik.q.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.q.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "r":
             try:
-                process = subprocess.Popen(ik.r.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.r.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "s":
             try:
-                process = subprocess.Popen(ik.s.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.s.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "t":
             try:
-                process = subprocess.Popen(ik.t.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.t.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "u":
             try:
-                process = subprocess.Popen(ik.u.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.u.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "v":
             try:
-                process = subprocess.Popen(ik.v.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.v.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "w":
             try:
-                process = subprocess.Popen(ik.w.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.w.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "x":
             try:
-                process = subprocess.Popen(ik.x.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.x.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "y":
             try:
-                process = subprocess.Popen(ik.y.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.y.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "z":
             try:
-                process = subprocess.Popen(ik.z.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.z.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "backspace":
             try:
-                process = subprocess.Popen(ik.backspace.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.backspace.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
@@ -225,70 +224,70 @@ def open_numpad():
         
         if event == "1":
             try:
-                process = subprocess.Popen(ik.num1.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.num1.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
             
         if event == "2":
             try:
-                process = subprocess.Popen(ik.num2.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.num2.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "3":
             try:
-                process = subprocess.Popen(ik.num3.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.num3.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "4":
             try:
-                process = subprocess.Popen(ik.num4.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.num4.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
         
         if event == "5":
             try:
-                process = subprocess.Popen(ik.num5.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.num5.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "6":
             try:
-                process = subprocess.Popen(ik.num6.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.num6.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "7":
             try:
-                process = subprocess.Popen(ik.num7.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.num7.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "8":
             try:
-                process = subprocess.Popen(ik.num8.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.num8.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "9":
             try:
-                process = subprocess.Popen(ik.num9.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.num9.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
                 
         if event == "0":
             try:
-                process = subprocess.Popen(ik.num0.split(), stdout=subprocess.PIPE)
+                process = sp.Popen(ik.num0.split(), stdout=sp.PIPE)
                 output, error = process.communicate()
             except:
                 window['-OUTPUT-'].update("Something went wrong")
@@ -317,7 +316,7 @@ while True:
     if event == "Connect" and inputIP !=None:
         print("Connecting to IP address", inputIP)
         try:
-            process = subprocess.Popen(connecttotv.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(connecttotv.split(), stdout=sp.PIPE)
             output, error = process.communicate()
             adb_output = check_output(["adb", "devices"])
             if adb_output != None:
@@ -330,7 +329,7 @@ while True:
         state = 0
         print("Disconnected")
         try:
-            process = subprocess.Popen(disconnecttotv.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(disconnecttotv.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong while disconnecting")
@@ -341,154 +340,154 @@ while True:
     
     if event == "inputsource":
         try:
-            process = subprocess.Popen(ik.inputsource.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.inputsource.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("err_input")
             
     if event == "netflix":
         try:
-            process = subprocess.Popen(ik.netflix.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.netflix.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
         
     if event == "spotify":
         try:
-            process = subprocess.Popen(ik.spotify.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.spotify.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("err_spotify")
             
     if event == "youtube":
         try:
-            process = subprocess.Popen(ik.youtube.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.youtube.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("err_youtube")
             
     if event == "hotstar":
         try:
-            process = subprocess.Popen(ik.hotstar.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.hotstar.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "manager":
         try:
-            process = subprocess.Popen(ik.manager.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.manager.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
        
     if event == "livetv":
         try:
-            process = subprocess.Popen(ik.livetv.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.livetv.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "up":
         try:
-            process = subprocess.Popen(ik.dpad_up.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.dpad_up.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "down":
         try:
-            process = subprocess.Popen(ik.dpad_down.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.dpad_down.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "left":
         try:
-            process = subprocess.Popen(ik.dpad_left.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.dpad_left.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "right":
         try:
-            process = subprocess.Popen(ik.dpad_right.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.dpad_right.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "home":
         try:
-            process = subprocess.Popen(ik.dpad_home.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.dpad_home.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "select":
         try:
-            process = subprocess.Popen(ik.select.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.select.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "back":
         try:
-            process = subprocess.Popen(ik.back.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.back.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "rewind":
         try:
-            process = subprocess.Popen(ik.media_rewind.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.media_rewind.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "prev":
         try:
-            process = subprocess.Popen(ik.media_previous.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.media_previous.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "playpause":
         try:
-            process = subprocess.Popen(ik.media_playpause.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.media_playpause.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "next":
         try:
-            process = subprocess.Popen(ik.media_next.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.media_next.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "fastforward":
         try:
-            process = subprocess.Popen(ik.media_fastforward.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.media_fastforward.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "volumeup":
         try:
-            process = subprocess.Popen(ik.volup.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.volup.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "volumedown":
         try:
-            process = subprocess.Popen(ik.voldown.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.voldown.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
             
     if event == "mute":
         try:
-            process = subprocess.Popen(ik.mute.split(), stdout=subprocess.PIPE)
+            process = sp.Popen(ik.mute.split(), stdout=sp.PIPE)
             output, error = process.communicate()
         except:
             window['-OUTPUT-'].update("Something went wrong")
